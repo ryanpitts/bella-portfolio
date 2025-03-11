@@ -174,12 +174,23 @@ body {
 	overflow: auto;
 	
 }
-.container img.thumbnail {
+.container .thumbnail-container img.thumbnail {
 	float: left;
 	display: inline-block;
-	width: 40%;
-	margin: 0 5% 15px;
+	margin: 0 0 15px;
 }
+.container .thumbnail-container-2col img.thumbnail {
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.container .thumbnail-container-3col img.thumbnail {
+	width: 27%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+
 
 .container .heading {
 	font-size: 42px;
@@ -258,7 +269,9 @@ body {
 		max-width: 90%;
 		margin: 0 5% 15px;
 	}
-	.container img.thumbnail {
+	.container img.thumbnail,
+	.container .thumbnail-container-2col img.thumbnail,
+	.container .thumbnail-container-3col img.thumbnail {
 		float: none;
 		display: block;
 		width: 90%;
