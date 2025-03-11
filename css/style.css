@@ -160,6 +160,27 @@ body {
 	padding: 120px 30px 0;
 }
 
+.container img {
+	max-width: 65%;
+	margin: 0 17% 15px;
+}
+
+.container img.full-width {
+	max-width: 90%;
+	margin: 0 5% 15px;
+}
+
+.container .thumbnail-container {
+	overflow: auto;
+	
+}
+.container img.thumbnail {
+	float: left;
+	display: inline-block;
+	width: 40%;
+	margin: 0 5% 15px;
+}
+
 .container .heading {
 	font-size: 42px;
 	font-variation-settings: "ital" 0, "wdth" 100, "wght" 950;
@@ -168,11 +189,17 @@ body {
 	text-align: center;
 }
 
+.container h2 {
+	clear: both;
+	margin-top: 40px;
+	text-align: center;
+}
+
 .container .body {
 	font-size: 18px;
 	font-family: 'deuterium-variable';
 	padding-top: 30px;
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 60%;
@@ -198,8 +225,6 @@ body {
 	padding-bottom: 15px;
 }
 
-.infographic-video {
-}
 
 @media only screen and (max-width: 768px){
 	.sgrid {
@@ -228,6 +253,16 @@ body {
 		float: none;
 		clear: both;
 		display: block;
+	}
+	.container img {
+		max-width: 90%;
+		margin: 0 5% 15px;
+	}
+	.container img.thumbnail {
+		float: none;
+		display: block;
+		width: 90%;
+		margin: 0 5% 15px;
 	}
 }
 
