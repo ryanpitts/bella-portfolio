@@ -219,6 +219,18 @@ body {
 	margin: 0 auto;
 }
 
+.container .body-gal {
+	font-size: 18px;
+	font-family: 'deuterium-variable';
+	padding-top: 0px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
 
 .container .box {
 	display: flex;
